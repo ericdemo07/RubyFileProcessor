@@ -1,0 +1,13 @@
+sftp:
+  hostip: localhost
+  username: ericdemo07
+
+logpath : ../log/
+
+path:
+  source_path: ../test_file/incoming_file.csv
+  destination_path: ../incoming/incoming_file.csv
+
+compare_keyword: DOWN
+
+db_path: ../db/data.db
